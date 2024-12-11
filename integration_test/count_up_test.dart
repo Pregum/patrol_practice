@@ -6,9 +6,7 @@ import 'package:patrol_practice/main.dart';
 void main() {
   patrolTest('demo',
       framePolicy: LiveTestWidgetsFlutterBindingFramePolicy.fullyLive,
-      config: const PatrolTesterConfig(
-        printLogs: true,
-      ), ($) async {
+      config: const PatrolTesterConfig(), ($) async {
     await $.pumpWidgetAndSettle(const MyApp());
 
     expect($('Flutter Demo Home Page'), findsOneWidget);
