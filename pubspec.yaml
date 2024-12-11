@@ -49,11 +49,11 @@ dev_dependencies:
   patrol: ^3.13.1
 
 patrol:
-  app_name: 'Patrol Practice'
+  app_name: patrol_practice
   android:
-    package_name: 'com.example.patrol_practice'
+    package_name: com.example.patrol_practice
   ios:
-    bundle_id: 'com.example.patrolPractice'
+    bundle_id: com.example.patrolPractice
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
